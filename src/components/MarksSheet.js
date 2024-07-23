@@ -235,10 +235,10 @@ let soconFocus=()=>{
               firstNameonFocus();
             }}
             onChange={() => {
-            firstNameonChange
+            firstNameonChange();            
             }}
             onBlur={() => {
-              firstNameonBlur
+              firstNameonBlur();
             }}
           ></input>
           <span ref={firstNameResultRef}></span>
@@ -342,7 +342,7 @@ let soconFocus=()=>{
               scionChange();
             }}
             onBlur={() => {
-             scionBlur
+             scionBlur();
             }}
           ></input>
           <span ref={sciResultRef}></span>
